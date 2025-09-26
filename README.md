@@ -7,7 +7,7 @@ Cliente mínimo en React + TypeScript para consumir la API Catalog.
 npm install
 npm run dev
 ```
-Configura un proxy a `http://localhost:8080` para `/api` en `vite.config.ts` si lo deseas:
+Configurar un proxy a `http://localhost:8080` para `/api` en `vite.config.ts`:
 ```ts
 server: { proxy: { '/api': 'http://localhost:8080' } }
 ```
